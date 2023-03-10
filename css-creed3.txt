@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <title>Creed 3</title>
+</head>
+<body>
+    <header>
+<div class="Creed3"></div>
+<h2>
+    Movie    Atores    Galeria    News
+</h2>
+
+   
+
+    </header>
+    <main>
+       <img class="logo__creed" src="creed3-logo.png" alt="">
+
+        <div class="info"></div>
+        <h2 class="info__title"></h2>
+       <p class="info__text">
+        Adonis Creed (Michael B. Jordan) finalmente está prosperando em sua carreira e vida pessoal. No entanto, seu equilíbrio é abalado quando Damian Anderson (Jonathan Majors), um amigo de infância e ex-prodígio do boxe, ressurge de repente. Aos poucos, eles descobrirão que o seu conflito vai muito além de apenas uma luta profissional.
+       </p>
+       <a href=""></a>
+       
+    
+    
+
+    </main>
+    <footer>
+        <div>
+            <img class="trailer1" src="trailer1.png" alt="">
+        <img class="trailer2" src="trailer2.png" alt="">
+        <img class="critica" src="critica.png" alt="">
+         </div>
+    </footer>
+</body>
+</html>
