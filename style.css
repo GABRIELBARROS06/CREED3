@@ -3,76 +3,169 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
+body{
+    height: 100vh;
+    background-image: url(https://rollingstone.uol.com.br/media/uploads/2023/02/creed-3-iii-filme-michael-b-jordan-jonathan-majors-foto-divulgacao.jpg);
+    background-position: center;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
 header{
-    text-align:start ;
-    color: cornsilk;
+
+    display: flex;
+background-color: transparent;
+color: white;
+}
+
+
+h2{
+    display: flex;
+    flex-direction: row;
+    word-spacing: 20vh;
+    margin-left: 20px;
+}
+
+main{
+    display: grid;
+    color: white;
 
 }
 
-body{
+
+.logo__creed{
+   display: flex;
+   width: -10px;
+   margin-left: 20px;
+   margin-bottom: 0px;
+}
+
+.logo__container{
+
+    display: grid;
+    align-self: right;
+    row-gap:10vh ;
+position: fixed;
+left: 90%;
+bottom: 20%;
+}
+.info__text{
+
+    display: flex;
+    width: 750px;
+    margin-left: 30px;
+    text-align: left;
+    margin-top: -40px;
+}
+
     
-background-image:url(https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/10/221018152348-01-creed-press-image.jpg) ;
-background-position-x: center;
-background-repeat: no-repeat;
-background-position-y: top;
+
+.thumbnail{
+    display: flex-start;
+    width: 200px;
+    margin-bottom: -5px;
+    margin-left: 20px;
+}
+
+    
 
 
 
+
+
+
+/* 
+
+  
+
+body{
+background-image: url(https://rollingstone.uol.com.br/media/uploads/2023/02/creed-3-iii-filme-michael-b-jordan-jonathan-majors-foto-divulgacao.jpg);
+background-position: center;
+display: grid ;
+grid-template-rows: 100px 1fr 100px;
+margin-left:100px;
+
+
+}
+header{
+    display: flex;
+    gap: 16px;
+   color:white ;
+   margin-left: 100px;
+   word-spacing: 15vh;
+
+}
+
+.creed__loguinho{
+
+    margin-right: 90px;
 }
 main{
 
     display: grid;
-    background-attachment: transparent;
+    grid-template-columns:2fr 1fr ;
+    grid-template-rows: 2fr 1fr;
+    height: 300px;
 }
-.logo__creed{
-width: 500px;
-margin-top: 100px;
-margin-left: 37px;
-margin-bottom: 75spx;
-
+p{
+    font-size: 20px;
+    width: 50px;
+    color: white;
+ 
 }
 .info__text{
-    font-size: 20px;
-    color: white;
-    width: 500px;
-    margin-bottom: 140px;
-    margin-left: 50px;
-    margin-top: 100px;
+    text-align: left;
+    width: 850px;
+    
+}
+
+.logo__creed{
+
+
 }
 
 
-.trailer1{
+.logo__container{
 
-    width: 200px;
-    margin-bottom: 700px;
-    margin-left: 15px;
+    display: flex;
+    position: relative;
+    word-spacing: 150px;
+    align-items: right;
+    color: white;
+    margin-left: 100px;
+    margin-top: 300px;
     
 
+}.vds{
+
+    display: grid;
+    width: 100px;
+   
 }
 
-.trailer2{
- width: 200px;
- margin-top: -20px;
- margin-left: 50px;
- margin-bottom: 700px;
+.v1{
 
- 
-
-
-
+    margin-left: 1200px;
+        margin-top: -300px;
+        width: 10px;
+        display: flex;
+        height: 150px;
 }
-.critica{
-width: 200px;
-margin-right: 50px;
-margin-left: 50px;
-margin-bottom: 700px;
-
-
-
+.v2{
+    margin-left: 1200px;
+    margin-top: -90px;
+    margin-bottom: 100px;
+    width: 50px;
+    display: flex;
+    height: 150px;
 }
-footer{
-    margin-bottom: 200px;
+
+.v3{
+    margin-left: 1200px;
+        margin-top: -39px;
+        
+        width: 10px;
+        display: flex;
+        height: 150px;
 }
+
+ */
